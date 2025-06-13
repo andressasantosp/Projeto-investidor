@@ -1,74 +1,49 @@
+# 📈 Simulador de Investimentos em Fundos Imobiliários
+Autor: Andressa Santos
+Santander - Excel com Inteligência Artificial
+Tech Educator at DIO: Felipe Silva Aguiar
+## ✅ Descrição Geral
 
-# 📊 Análise de Perfis de Investimento
+Este projeto foi desenvolvido como parte do desafio da [DIO](https://www.dio.me) com o objetivo de aplicar, na prática, os conceitos de Excel voltados ao mercado financeiro. A proposta é oferecer uma planilha interativa para simulação de investimentos em **Fundos Imobiliários (FIIs)**, permitindo ao usuário visualizar seu crescimento patrimonial ao longo do tempo com base em aportes mensais, taxa de rendimento e dividendos.
 
-Este repositório contém uma planilha em Excel (`Pasta1.xlsx`) que organiza dados de alocação de ativos de acordo com diferentes **perfis de investidor**. A estrutura foi projetada para auxiliar na construção e visualização de portfólios conforme o perfil de risco do investidor.
+## 🎯 Objetivos da Planilha
 
-## ✅ Objetivo
+- Automatizar cálculos como valor total investido, rendimento acumulado e dividendos mensais;
+- Proporcionar uma visão clara e estratégica dos retornos ao longo dos anos;
+- Servir como ferramenta prática para planejamento financeiro com foco em fundos imobiliários.
 
-Oferecer uma base de dados clara e organizada para:
-- Estruturar alocação de investimentos conforme o perfil de risco.
-- Comparar variações de alocação entre perfis diferentes.
-- Servir como apoio em análises financeiras e educação financeira.
+A planilha funciona como um pequeno "consultor financeiro automatizado", ajudando o usuário a responder perguntas como:
 
-## 🗂 Estrutura da Planilha
+1.“Se eu investir R$ 500 por mês durante 10 anos, quanto terei acumulado?”
 
-O arquivo contém duas abas:
+2.“Com base na taxa média de dividendos, quanto posso receber por mês em rendimentos passivos?”
 
-### 1. Aba: Planilha1
-- **Status:** Atualmente vazia.
-- **Finalidade:** Pode ser usada futuramente para rascunhos, observações ou novas versões da análise.
+3.“Vale mais a pena investir R$ 1.000 por 5 anos ou R$ 500 por 10 anos?”
 
-### 2. Aba: Planilha2
+4.“Como a escolha do perfil de risco impacta na distribuição dos meus fundos?”
 
-Contém os dados principais organizados em colunas:
+5.“Se eu aplicar 30% do meu salário, estou dentro de uma faixa saudável de investimentos?”
 
-| Coluna          | Descrição |
-|------------------|-----------|
-| **Chave**        | Combinação do perfil e tipo de ativo (ex: `Conservador - Papel`). |
-| **Perfil**       | Tipo de investidor (ex: `Conservador`, `Moderado`). |
-| **Tipo de perfil** | Tipo de ativo alocado (ex: `Papel`, `Tijolo`, `Híbrido`, `FOFs`). |
-| **%**            | Percentual de alocação dentro do perfil (valores decimais, como `0.3` = 30%). |
-| **Colunas extras**| Algumas colunas extras contêm dados adicionais para perfis como o `Moderado`. |
+## 🛠️ Funcionalidades Implementadas
 
-### Exemplo de Dados
+- Cálculo de patrimônio acumulado baseado em:
+  - Valor de aporte mensal
+  - Duração do investimento (anos)
+  - Taxa de rendimento mensal estimada
+- Estimativa de dividendos mensais
+- Simulações de retorno para 2, 5, 10, 20 e 30 anos
+- Sugestão de alocação de carteira conforme perfil de investidor e tipo de FII (Papel, Tijolo, Híbrido, FOFs, etc.)
 
-```
-Chave                  | Perfil      | Tipo de perfil | %  
------------------------|-------------|----------------|-----
-Conservador - Papel    | Conservador | Papel          | 0.3
-Conservador - Tijolo   | Conservador | Tijolo         | 0.5
-Conservador - Híbrido  | Conservador | Híbrido        | 0.1
-Conservador - FOFs     | Conservador | FOFs           | 0.1
-```
 
-## ⚙️ Instruções de Uso
+## 📷 Capturas de Tela
 
-1. Abra o arquivo `Pasta1.xlsx` com Microsoft Excel, LibreOffice Calc ou Google Planilhas.
-2. Acesse a aba **Planilha2** para visualizar os dados de alocação.
-3. Utilize os percentuais como base para:
-   - Estudos de alocação de portfólio.
-   - Simulações manuais de carteira.
-   - Apresentações ou relatórios visuais.
-4. Pode incluir novos perfis e tipos de ativos conforme suas necessidades.
+Abaixo uma prévia da planilha com as principais seções:
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/34b0f664-e4ab-48b2-bff3-fd6f5bd128c6" />
 
-## 📊 Visualização
 
-Você pode criar gráficos a partir dos dados, como:
-- Gráfico de pizza para visualizar a composição de cada perfil.
-- Gráfico de barras comparando alocações entre diferentes perfis.
 
-Esses gráficos ajudam a interpretar visualmente a concentração e diversificação dos ativos.
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/94ebc9fe-5d7f-4c6a-9252-0c7a99522e39" />
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/3291c4ab-8d20-44e0-b7de-b02067a47e39" />
 
-## ℹ️ Observações
 
-- Os percentuais são estimativos e representam uma base conceitual.
-- Esta planilha **não realiza cálculos automáticos ou simulações**, apenas organiza dados.
-- Os dados podem ser expandidos ou ajustados conforme necessidades futuras.
 
-## 📄 Licença
-
-Este projeto está disponível sob a [Licença MIT](LICENSE).
-
----
-
-*README atualizado com base em boas práticas de documentação e comparações com projetos semelhantes.*
